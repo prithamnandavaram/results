@@ -1,0 +1,110 @@
+*{
+    font-family: sans-serif;
+    background-color:#003366;
+}
+.background{
+    display: grid;
+    justify-items: center;
+
+}
+.in-box{
+    background-color: white;
+    height: 324px;
+    width: 400px;
+    margin-top: 14.5rem;
+    
+}
+.in-image{
+   
+    background-color: white;
+    height: 110px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+.image{
+    background-image: url(bmsit.png);
+    height: 107px;
+    width: 100px;
+    background-size: cover; 
+    
+}
+.text{
+
+    width: 400px;
+    background-color: white;
+}
+.text h1{
+    background-color: white;
+    font-weight: 800;
+    font-size: 20px;
+    justify-content: center;
+    color: black;
+    
+    display: flex;
+
+}
+.mob{
+    background-color: white;
+    height: 43.5px;
+    width: 380px;
+    display: flex;
+    background-size: cover;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    
+}
+.logo{
+    font-size:1.8rem;
+    height:23.5px;
+    width: 29px;
+    background-color: white;
+    background-size: cover;
+    place-items: bottom;
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+::placeholder{
+    color: red;
+}
+.input{
+outline: none;
+color: transparent;
+}
+
+.enter{
+    margin-right: 5px;
+    background-color: white;
+    height: 43.5;
+    width: 380px;
+    border:none;
+    margin-left: 15px;
+    border-bottom: 1px solid red;
+}
+.log{
+    height: 36px;
+    width: 359px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.ltext{
+    background-color: black;
+    height: 36px;
+    color: white;
+    background-size:fill;
+    display: flex;
+    align-items: center;
+}
+input{
+    outline: none;
+}
+
+
+
